@@ -1,0 +1,17 @@
+{
+    "name": "andresvince/jquery",
+    "description": "Consulta CEP via Jquery",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andres Vince",
+            "email": "andresvince@gmail.com"
+        }
+    ],
+    "require": {"php": ">=7.2.0"},
+	"autoload":{
+        "psr-0": { "src/" },
+        "psr-4": { "andresvince\\Jquery\\": "src/"}
+    }
+
